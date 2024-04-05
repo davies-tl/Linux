@@ -1,0 +1,8 @@
+[submodule "Hello-C-Shell"]
+	path = Hello-C-Shell
+	url = git@github.com:davies-tl/Hello-C-Shell.git
+	branch = master
+[submodule "Linux-Command-Line-Practice"]
+	path = Linux-Command-Line-Practice
+	url = git@github.com:davies-tl/Linux-Command-Line-Practice.git
+	branch = master
