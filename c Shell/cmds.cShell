@@ -1,0 +1,32 @@
+3) emacs ~/hello.cpp
+   #use arrrows to get to 'Y' in Your
+   <esc> d
+   <esc> d
+   Tyler Davies
+   #types how I am feeling today and why
+   <ctrl> x  <ctrl> s
+   <ctrl> x  <ctrl> c
+4) emacs makefile
+   #types the following
+   hello: hello.cpp
+   [Tab] g++ -Wall -g hello.cpp -o hello
+   <ctrl> x  <ctrl> s
+5) <ctrl> x  <ctrl> f hello.cpp
+   <esc> x compile <enter>
+   make -k > cShell.out
+   <ctrl> x 1
+   <ctrl> x  <ctrl> f cmds.cShell
+   #types command list
+   <ctrl> x  <ctrl> s
+   <ctrl> x  <ctrl> c
+6) emacs hello.cpp
+   <ctrl> x 2
+   <ctrl> x o
+   <esc> x shell
+   ./hello >> cShell.out
+   exit
+   <ctrl> x  <ctrl> c
+   emacs cmds.cShell
+   #updates remaining commands
+   <ctrl> x  <ctrl> s
+   <ctrl> x  <ctrl> c
